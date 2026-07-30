@@ -1,6 +1,6 @@
 # Collette-Sarver-Dissertation-Supplementary-Files
 This repository contains the supplemental information for the dissertation entitled, "Interstellar Complex Organic Molecules: From the Interstellar Medium to Star-Forming Regions" written by Collette C. Sarver, who successfully defended on July 22nd, 2026.
-The contents on this zipped file are split into three folders:`
+The contents on this zipped file are split into three folders:
 
 1) Chapter 4, containing all data relevant to the laboratory experimental astrochemistry research. This includes raw experimental IR spectra, QMS data, excel/google sheet spreadsheets used in data analysis, and images used in the published paper.
 
