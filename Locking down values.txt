@@ -1,0 +1,14 @@
+Ah gotcha. You’ll need to run the previous fits in individually with whatever value you want. 
+Then run the first of those molecules with all the previous fits and lock down the temp
+This is now your new “previous fit.” Run the second molecule with only the new previous fit at the second locked temperature. 
+This will allow the old molecules to be locked at their own temp values while this new molecule will have the new locked temp
+Repeat for the other new molecules
+It’s super tedious and annoying, but not sure if there’s a way to lock certain temperatures when running multiple molecules at a time
+
+I need to lock down values for everything I have right now, which is 7 previous fit molecules and 4 good ones that I let GOBASIC fit. 
+For the 7, I just rerun them individually with locked down values. For the 4 good ones I want to do this process? 
+With all the 7 locked down included as previous fits?
+
+For the 7 do exactly that yes. Then, run the first good one by itself with all 7 previous fit molecules while locking down the values for the good one. Once this is done, take this newly created fit and use it as the sole “previous fit” for the second good molecule. This will allow you to lock down new values while having it not affect your first good molecule
+Repeat process for the final two good molecules
+Or I should say repeat the last step for the final two good molecules
